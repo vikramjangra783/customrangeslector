@@ -1,0 +1,49 @@
+.box {
+    background: #BADA55;
+    border:none;
+    /* padding: 10px 20px; */
+    display: inline-block;
+    min-width: 10px;
+    min-height: 10px;
+    
+    margin: 0px;
+    position:absolute;
+    z-index: 1;
+    
+  
+   /* dragging {
+      background: coral;
+    } */
+  }
+
+  .range{
+    min-height: 10px;
+    min-width: 10px;
+    z-index: -1;
+    display: inline-block;
+    position:absolute;
+    background: red;
+    z-index: 0;
+  }
+  
+  .boundry {
+    background: #C0FFEE;
+    padding: 0px;
+    margin: 0px;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: inline-flex;
+    
+    -webkit-flex-flow: row nowrap;
+    -moz-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    
+    -webkit-align-items: flex-end;
+    -moz-align-items: flex-end;
+    align-items: flex-end;
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+  }
+  
+    
